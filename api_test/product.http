@@ -1,0 +1,44 @@
+### Get all products
+GET http://localhost:5000/api/products HTTP/1.1
+
+### Add product
+POST http://localhost:5000/api/products HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Gold Fish 2",
+    "code": "GF3",
+    "category": "fresh",
+    "subcategory": "Fresh fish 1",
+    "description": "Beautiful orange clr fish",
+    "sciencetific": "Gold Fishia",
+    "ph": "12P",
+    "temperature": "28C",
+    "behaviour": "Test behaviout",
+    "price": 3500,
+    "images": [
+        "f4.jpg", "f1.jpg", "f2.jpg"
+    ]
+}
+
+### Update product
+PUT http://localhost:5000/api/products HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "64b2dd7f262d9a288ea7630d",
+    "name": "Gold Fish New",
+    "code": "GF1",
+    "category": "Fresh",
+    "subcategory": "GoldFish",
+    "description": "Beautiful orange clr fish",
+    "sciencetific": "Gold Fishia",
+    "ph": "12P",
+    "temperature": "28C",
+    "behaviour": "Test behaviout",
+    "images": ["hello"],
+    "price": 3500
+}
+
+### Delete
+DELETE http://localhost:5000/api/products/64b2dd7f262d9a288ea7630d HTTP/1.1

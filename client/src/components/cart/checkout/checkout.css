@@ -1,0 +1,22 @@
+.order-details td:first-child {
+    width: 200px;
+}
+
+.text {
+    width: 100%;
+    margin: 0;
+}
+
+.order-details td, .order-details tr {
+    height: 20px !important;
+    padding: 0;
+    margin: 0;
+}
+
+.body-container.checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+    margin-bottom: 3rem;
+}

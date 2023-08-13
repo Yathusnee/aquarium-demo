@@ -1,0 +1,21 @@
+.login-form-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-container > div {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.login-form-container hr {
+    margin: 2rem 0 2rem;
+}
+
+.login-form-container p {
+    text-align: center;
+}

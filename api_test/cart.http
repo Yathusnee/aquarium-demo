@@ -1,0 +1,14 @@
+### Add to cart
+POST http://localhost:5000/api/cart HTTP/1.1
+Content-Type: application/json
+
+{
+    "product": "64b39cbdbf098a878b8fa1c2",
+    "quantity": 2
+}
+
+### Get cart item count
+GET http://localhost:5000/api/cart/count HTTP/1.1
+
+### Get cart items
+GET http://localhost:5000/api/cart HTTP/1.1

@@ -1,0 +1,43 @@
+### Get All Users
+GET http://localhost:5000/api/users HTTP/1.1
+
+### Add New User
+POST http://localhost:5000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "abc",
+    "name": "Yohan Sandun",
+    "password": "123456",
+    "email": "yohan@gmail.com",
+    "phone": "0714266758",
+    "address": "Galle, Sri Lanka.",
+    "roles": [
+        "employee"
+    ]
+}
+
+### Update User
+PUT http://localhost:5000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "64b02aa4f3a449b8846d1625",
+    "username": "yo",
+    "name": "Yohan Sandun Kumaranayake",
+    "email": "yohan@gmail.com",
+    "phone": "0714266758",
+    "address": "Galle, Sri Lanka.",
+    "points": 100,
+    "active": false,
+    "roles": [
+        "customer"
+    ]
+}
+
+### Delete User
+DELETE http://localhost:5000/api/users/64b00e1ecde6652e7b1b7f70 HTTP/1.1
+Content-Type: application/json
+
+### Get Address
+GET http://localhost:5000/api/users/address HTTP/1.1

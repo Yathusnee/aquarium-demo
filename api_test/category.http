@@ -1,0 +1,33 @@
+### Get all categories
+GET http://localhost:5000/api/categories HTTP/1.1
+
+### Add category
+POST http://localhost:5000/api/categories HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "salt",
+    "description": "Fish live in sea",
+    "subcategories": [
+       {
+        "name": "Salt fish 1",
+        "description": "olor fish",
+        "image": "s1.jpg"
+       },
+       {
+        "name": "Salt fish 2",
+        "description": "or fish",
+        "image": "s2.jpg"
+       },
+       {
+        "name": "Salt fish 3",
+        "description": "or fish",
+        "image": "s3.jpg"
+       },
+       {
+        "name": "Salt fish 4",
+        "description": "or fish",
+        "image": "s4.jpg"
+       }
+    ]
+}

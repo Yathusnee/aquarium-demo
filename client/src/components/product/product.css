@@ -1,0 +1,57 @@
+.product-container {
+    display: flex;
+}
+
+.right-side {
+    width: 50%;
+    position: relative;
+}
+
+.left-side {
+    width: 50%;
+    padding-right: 2rem;
+    vertical-align: top;
+    text-align: left;
+    position: relative;
+    display: flex;
+}
+
+.product-title {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.shipping-text {
+    font-size: small;
+}
+
+.quantity-text {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.quantity-picker {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: max-content;
+    padding: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.table-item {
+    width: 11rem;
+}
+
+.fish-details-table {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.image-gallery-image {
+    max-width: 42vw;
+    min-width: 42vw;
+}

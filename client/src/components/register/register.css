@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td > div {
+    margin-bottom: 1rem !important;
+}
+
+table td {
+    vertical-align: top;
+    text-align: left;
+}
+
+.gap {
+    width: 2rem;
+}
+
+.register-form-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form-container > div {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

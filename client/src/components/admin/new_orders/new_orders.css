@@ -1,0 +1,19 @@
+pre.address {
+    margin: 1rem 0 1rem;
+}
+
+div.total {
+    margin-bottom: 1rem;
+}
+
+.order-buttons {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.btn-container {
+    position: relative;
+}
